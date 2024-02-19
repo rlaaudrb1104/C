@@ -15,7 +15,7 @@ int main() {
   if (month[a] == 1) {
     printf("January\n");
     if (1 <= input_day && input_day <= 19){
-      printf("사수자리");
+      printf("염소자리");
     }
     else if(20 <= input_day && input_day <= 31) {
       printf("물병자리");
@@ -126,7 +126,7 @@ int main() {
       printf("천칭자리");
     }
     else if(23 <= input_day && input_day <= 31) {
-      printf("사수자리");
+      printf("전갈자리");
     }
     else {
       printf("잘못된 요일입니다.");
@@ -135,10 +135,10 @@ int main() {
   else if (month[a] == 11) {
     printf("November\n");
     if (1 <= input_day && input_day <= 22){
-      printf("사수자리");
+      printf("전갈자리");
     }
     else if(23 <= input_day && input_day <= 30) {
-      printf("염소자리");
+      printf("사수자리");
     }
     else {
       printf("잘못된 요일입니다.");
@@ -147,10 +147,10 @@ int main() {
   else if (month[a] == 12) {
     printf("December\n");
     if (1 <= input_day && input_day <= 24){
-      printf("염소자리");
+      printf("사수자리");
     }
     else if(25 <= input_day && input_day <= 31) {
-      printf("물병자리");
+      printf("염소자리");
     }
     else {
       printf("잘못된 요일입니다.");
