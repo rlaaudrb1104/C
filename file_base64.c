@@ -80,8 +80,8 @@ void file_base64(char *file_name, int num) {
 int main() {
   char file_name[100];
   int num = 0;
-  printf("1.base64_encodeing\n");
-  printf("2.base64_decodeing\n");
+  printf("1.base64_encoding\n");
+  printf("2.base64_decoding\n");
   scanf("%d", &num);
   printf("파일 이름 입력:\n");
   scanf("%s", file_name);
